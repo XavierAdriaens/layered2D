@@ -34,6 +34,6 @@ gmsh.model.geo.synchronize()
 gmsh.model.mesh.generate(1)
 gmsh.model.mesh.generate(2)
 
-gmsh.write("Output/thorax2D.msh")
+gmsh.write("thorax2D.msh")
 gmsh.fltk.run()
 gmsh.finalize()
